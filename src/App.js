@@ -1,25 +1,45 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './App.css';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Typography } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
+import ContactForm from './components/ContactForm';
+
+const useStyles = makeStyles((theme) => ({
+	button: {
+		margin: theme.spacing(1),
+	},
+}));
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+	const classes = useStyles();
 
+	return (
+		<div className="app">
+			<Router>
+				<div className="App">
+					<Navbar />
+
+					<Switch>
+						<Route exact path="/" component={About} />
+						<Route exact path="/projects" component={Portfolio} />
+						<Route exact path="/contact" component={ContactForm} />
+						<Route exact path="/resume" component={Resume} />
+					</Switch>
+				</div>
+			</Router>
+			<footer className={classes.footer}>
+				<Typography variant="h6" align="center" gutterBottom>
+					<Footer />
+				</Typography>
+			</footer>
+			;
+		</div>
+	);
+}
 export default App;

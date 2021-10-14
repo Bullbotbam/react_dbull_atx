@@ -7,7 +7,10 @@ import { Typography, IconButton, Toolbar, Container } from '@material-ui/core';
 
 const Footer = () => {
 	return (
-		<Container className="footer">
+		<Container
+			className="footer"
+			style={{ position: 'fixed', zIndex: '1', bottom: '0px' }}
+		>
 			<Toolbar className="footerIcons">
 				<Typography variant="h5" align="center">
 					&copy;2021 by dBull_ATX

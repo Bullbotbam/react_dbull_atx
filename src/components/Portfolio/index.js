@@ -11,7 +11,7 @@ import {
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
 import useStyles from '../../styles';
-import techBlog from '../../assets/images/just-tech-blog.png';
+import ecommerce from '../../assets/images/ecommerce.png';
 import highfive from '../../assets/images/highfive.PNG';
 import deepThoughts from '../../assets/images/deep-thoughts.png';
 import dinnerNMovie from '../../assets/images/dinner_n_movie.png';

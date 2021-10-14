@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react_dbull_atx/static/css/main.86db37d7.chunk.css",
+    "main.js": "/react_dbull_atx/static/js/main.e91e7b14.chunk.js",
+    "main.js.map": "/react_dbull_atx/static/js/main.e91e7b14.chunk.js.map",
+    "runtime-main.js": "/react_dbull_atx/static/js/runtime-main.854792b4.js",
+    "runtime-main.js.map": "/react_dbull_atx/static/js/runtime-main.854792b4.js.map",
+    "static/js/2.3357f4e8.chunk.js": "/react_dbull_atx/static/js/2.3357f4e8.chunk.js",
+    "static/js/2.3357f4e8.chunk.js.map": "/react_dbull_atx/static/js/2.3357f4e8.chunk.js.map",
+    "static/js/3.d64b539e.chunk.js": "/react_dbull_atx/static/js/3.d64b539e.chunk.js",
+    "static/js/3.d64b539e.chunk.js.map": "/react_dbull_atx/static/js/3.d64b539e.chunk.js.map",
+    "index.html": "/react_dbull_atx/index.html",
+    "static/css/main.86db37d7.chunk.css.map": "/react_dbull_atx/static/css/main.86db37d7.chunk.css.map",
+    "static/js/2.3357f4e8.chunk.js.LICENSE.txt": "/react_dbull_atx/static/js/2.3357f4e8.chunk.js.LICENSE.txt",
+    "static/media/budget_tracker.032d2d9c.gif": "/react_dbull_atx/static/media/budget_tracker.032d2d9c.gif",
+    "static/media/dbull_atx_logo.86b59963.png": "/react_dbull_atx/static/media/dbull_atx_logo.86b59963.png",
+    "static/media/deep-thoughts.7eaf1837.png": "/react_dbull_atx/static/media/deep-thoughts.7eaf1837.png",
+    "static/media/dinner_n_movie.53f34874.png": "/react_dbull_atx/static/media/dinner_n_movie.53f34874.png",
+    "static/media/ecommerce.63b2f68c.png": "/react_dbull_atx/static/media/ecommerce.63b2f68c.png",
+    "static/media/highfive.c3a00818.PNG": "/react_dbull_atx/static/media/highfive.c3a00818.PNG",
+    "static/media/know-more.e3635a51.gif": "/react_dbull_atx/static/media/know-more.e3635a51.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.854792b4.js",
+    "static/js/2.3357f4e8.chunk.js",
+    "static/css/main.86db37d7.chunk.css",
+    "static/js/main.e91e7b14.chunk.js"
+  ]
+}

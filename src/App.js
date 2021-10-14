@@ -33,12 +33,7 @@ function App() {
 					</Switch>
 				</div>
 			</Router>
-			<footer className={classes.footer}>
-				<Typography variant="h6" align="center" gutterBottom>
-					<Footer />
-				</Typography>
-			</footer>
-			;
+			<Footer className={classes.footer} />;
 		</div>
 	);
 }

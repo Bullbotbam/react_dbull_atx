@@ -5,8 +5,8 @@
 .app {
 	background: url(https://images.unsplash.com/photo-1593046584078-ddc9dc530ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
 
-	zoom: 0.75; /* all browsers */
-	-moz-transform: scale(0.75); /* Firefox */
+	/* zoom: 0.95; all browsers
+	-moz-transform: scale(0.95); Firefox */
 
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
@@ -14,7 +14,6 @@
 	background-position: 0 -20rem;
 	height: 100vh;
 	width: 100vw;
-	width: auto;
 	padding: 0;
 	margin: 0;
 	position: relative;

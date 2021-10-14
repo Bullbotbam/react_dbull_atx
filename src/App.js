@@ -6,7 +6,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Typography } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core';
 import ContactForm from './components/ContactForm';
 
@@ -20,7 +20,7 @@ function App() {
 	const classes = useStyles();
 
 	return (
-		<div className="app">
+		<Container className="app">
 			<Router>
 				<div className="App">
 					<Navbar />
@@ -34,7 +34,7 @@ function App() {
 				</div>
 			</Router>
 			<Footer className={classes.footer} />;
-		</div>
+		</Container>
 	);
 }
 export default App;

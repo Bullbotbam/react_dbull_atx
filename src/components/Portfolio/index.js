@@ -21,6 +21,15 @@ import knowMore from '../../assets/images/know-more.gif';
 const cardInfo = [
 	{
 		Project: 1,
+		name: 'FarmGo Market',
+		img: ecommerce,
+		github: 'https://github.com/Bullbotbam/farm-go',
+		demo: 'https://farm-gomarket.herokuapp.com',
+		dependencies:
+			'node.js, express, react, mongodb, graphql, stripe, bcrypt, jsonwebtoken, material-ui',
+	},
+	{
+		Project: 2,
 		name: 'High5!',
 		img: highfive,
 		github: 'https://github.com/Bullbotbam/high-five',
@@ -29,7 +38,7 @@ const cardInfo = [
 			'node, express, mysql, mysql2, sequelize, handlebars, dotenv, connect-session-sequelize, bcrypt,',
 	},
 	{
-		Project: 2,
+		Project: 3,
 		name: 'Dinner and Movie',
 		img: dinnerNMovie,
 		github: 'https://github.com/Bullbotbam/dinner_n_movie',
@@ -38,7 +47,7 @@ const cardInfo = [
 			'JavaScript, CSS, HTML, Bulma, Edamam API, The Movie Database API',
 	},
 	{
-		Project: 3,
+		Project: 4,
 		name: 'Deep Thoughts',
 		img: deepThoughts,
 		github: 'https://github.com/Bullbotbam/deep-thoughts',
@@ -47,7 +56,7 @@ const cardInfo = [
 			'graphql, mongoose, node.js, express, react, apollo-server-express, jsonwebtoken, material-ui, bcrypt',
 	},
 	{
-		Project: 4,
+		Project: 5,
 		name: 'Budget Tracker',
 		img: budget,
 		github: 'https://github.com/Bullbotbam/budget-tracker',
@@ -56,21 +65,12 @@ const cardInfo = [
 	},
 
 	{
-		Project: 5,
+		Project: 6,
 		name: 'Know More',
 		img: knowMore,
 		github: 'https://github.com/Bullbotbam/know-more',
 		demo: 'https://www.youtube.com/watch?v=wVESsP6NQUo',
 		dependencies: 'node.js, express, mongoose, MongoDB',
-	},
-	{
-		Project: 6,
-		name: 'Just Tech Blog',
-		img: techBlog,
-		github: 'https://github.com/Bullbotbam/just_tech_blog',
-		demo: 'https://afternoon-anchorage-01216.herokuapp.com/login',
-		dependencies:
-			'node.js, express, express-handlebars, mysql2, sequelize, dotenv, bcrypt, express-sessions, connect-sessions-sequelize',
 	},
 ];
 

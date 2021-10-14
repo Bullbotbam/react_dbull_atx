@@ -31,6 +31,10 @@ const theme = createTheme({
 // const MenuOptions = ['Home', 'Projects', 'Hit Me UP', 'Resume'];
 
 export default function SearchBar(theme) {
+	const navStyle = {
+		color: '#757575',
+		margin: '20px',
+	};
 	const [anchorEl, setAnchorEl] = React.useState(null);
 	const open = Boolean(anchorEl);
 	const handleClick = (event) => {
@@ -92,18 +96,18 @@ export default function SearchBar(theme) {
 						}}
 					>
 						<Link to="/">
-							<MenuItem>About</MenuItem>
+							<MenuItem className={navStyle}>About</MenuItem>
 						</Link>
 
 						<Link to="/projects">
-							<MenuItem>Projects</MenuItem>
+							<MenuItem className={navStyle}>Projects</MenuItem>
 						</Link>
 
 						<Link to="/contact">
-							<MenuItem>Hit Me Up </MenuItem>
+							<MenuItem className={navStyle}>Hit Me Up </MenuItem>
 						</Link>
 						<Link to="/resume">
-							<MenuItem> Resume </MenuItem>
+							<MenuItem className={navStyle}> Resume </MenuItem>
 						</Link>
 					</Menu>
 				</Toolbar>

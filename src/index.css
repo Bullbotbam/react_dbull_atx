@@ -1,3 +1,24 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+.app {
+	background: url(https://images.unsplash.com/photo-1593046584078-ddc9dc530ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+
+	zoom: 0.75; /* all browsers */
+	-moz-transform: scale(0.75); /* Firefox */
+
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -50rem;
+	height: 240vh;
+	width: auto;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -141,4 +162,7 @@ code {
 }
 .resButton {
 	margin-top: 40px;
+}
+.resumeBody {
+	text-align: justify;
 }

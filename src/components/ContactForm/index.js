@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core';
 import { Container, Typography, Button, TextField } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import emailjs from 'emailjs-com';
-import '../../App.css';
+import './index.js';
 
 const useStyles = makeStyles((theme) => ({
 	button: {

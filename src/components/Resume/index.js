@@ -4,9 +4,13 @@ import FileDownload from '../FileDownload';
 
 const Resume = () => {
 	return (
-		<Container style={{ color: '#757575' }} className="resumeBody">
+		<Container
+			style={{ color: '#757575', paddingRight: '10rem' }}
+			className="resumeBody"
+		>
 			<Grid xs={12}>
 				<Typography variant="h2">Donald Bull</Typography>
+				<Divider />
 				<Typography variant="h5">
 					Austin, Texas - www.linkedin.com/in/donaldjbull-atx ||
 					https://github.com/Bullbotbam
@@ -17,6 +21,35 @@ const Resume = () => {
 					TECHNICAL SKILLS, PROGRAM DEVELOPMENT, AND TRAINING EXPERIENCE WILL
 					ALLOW ME TO BE A LEGITIMATE ASSET.
 				</Typography>
+				<br />
+				<Divider />
+				<Typography variant="h4">Skils</Typography>
+				<Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+					<Grid item xs={6} md="4">
+						<item>MERN Stack (MongoDB, Express.js React.js Node.js)</item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item>HTM, CSS, JavaScript </item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item>Progressive Web, Appitem</item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item>Bootstrap, GraphQL</item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item>Persistent Storage, MySQL</item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item> User Authentication, JWT</item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item> Object Oriented Programming, Redux</item>
+					</Grid>
+					<Grid item xs={6} md="4">
+						<item> JQuery, Handlebars, MVC</item>
+					</Grid>
+				</Grid>
 				<br />
 				<Divider />
 				<Typography variant="h4">Experience</Typography>
@@ -31,11 +64,6 @@ const Resume = () => {
 					<li>
 						Website development proposals, designing page layout, content
 						management systems, develop client branding strategy.
-					</li>
-					<li>
-						Skills used: HTM, CSS, JavaScript, JWT, Progressive Web App,
-						Bootstrap, GraphQL, Local Storage, MySQL, User Authentication, MERN
-						Stack (MongoDB, Express.js, React.js, Node.js)
 					</li>
 				</Typography>
 				<br />

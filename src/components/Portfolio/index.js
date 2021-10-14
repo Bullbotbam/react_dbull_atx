@@ -11,12 +11,12 @@ import {
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
 import useStyles from '../../styles';
-import techBlog from '../../assets/img/just-tech-blog.png';
-import highfive from '../../assets/img/highfive.PNG';
-import deepThoughts from '../../assets/img/deep-thoughts.png';
-import dinnerNMovie from '../../assets/img/dinner_n_movie.png';
-import budget from '../../assets/img/budget_tracker.gif';
-import knowMore from '../../assets/img/know-more.gif';
+import techBlog from '../../assets/images/just-tech-blog.png';
+import highfive from '../../assets/images/highfive.PNG';
+import deepThoughts from '../../assets/images/deep-thoughts.png';
+import dinnerNMovie from '../../assets/images/dinner_n_movie.png';
+import budget from '../../assets/images/budget_tracker.gif';
+import knowMore from '../../assets/images/know-more.gif';
 
 const cardInfo = [
 	{
